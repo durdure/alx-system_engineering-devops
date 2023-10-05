@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# print all running pid
-ps auxf
+
+# Print only the process IDs (PIDs)
+ps auxf | awk '{print $2}'
 
