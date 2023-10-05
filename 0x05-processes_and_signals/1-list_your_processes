@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# print all running pid
 ps auxf
+
